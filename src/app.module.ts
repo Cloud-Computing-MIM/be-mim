@@ -23,7 +23,7 @@ import { AuthModule } from './auth/auth.module';
     AuthModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AuthGuard, SupabaseService],
-  exports: [AppService, SupabaseService],
+  providers: [AppService],
+  exports: [AppService],
 })
 export class AppModule {}
